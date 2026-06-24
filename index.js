@@ -16,3 +16,6 @@ else
 {
     document.querySelector("h1").innerHTML="Draw";
 }
+document.querySelector("#refreshBtn").addEventListener("click", function() {
+    location.reload();
+});
