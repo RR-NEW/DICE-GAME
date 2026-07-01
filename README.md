@@ -1,16 +1,15 @@
 # DICE-GAME
-# 🥁 Drum Kit
-LIVE-"http://127.0.0.1:5500/Drum%20Kit%20Starting%20Files/index.html"
-
-An interactive Drum Kit web application built using **HTML**, **CSS**, and **JavaScript**. Click the drum buttons or press the corresponding keyboard keys to play realistic drum sounds with simple animations.
+# 🎲 Dice Game
+LIVE="http://127.0.0.1:5501/dicee.html"
+A fun and interactive Dice Game built using **HTML**, **CSS**, and **JavaScript**. Refresh the page or click the play button (if implemented) to roll two dice randomly and determine the winner.
 
 ## 🚀 Features
 
-- 🎵 Play different drum sounds
-- ⌨️ Supports both mouse clicks and keyboard input
-- ✨ Button animation when a drum is played
-- 📱 Simple and responsive user interface
-- 💻 Built using vanilla JavaScript (no frameworks)
+- 🎲 Random dice roll generation using JavaScript
+- 👥 Two-player gameplay
+- 🏆 Automatically declares the winner or a draw
+- 🎨 Clean and responsive user interface
+- ⚡ Fast and lightweight (built without any frameworks)
 
 ## 🛠️ Technologies Used
 
@@ -18,66 +17,67 @@ An interactive Drum Kit web application built using **HTML**, **CSS**, and **Jav
 - CSS3
 - JavaScript (DOM Manipulation)
 
-## 🎮 How to Use
+## 🎮 How to Play
 
 1. Clone this repository:
    ```bash
-  https://github.com/RR-NEW/mini-drum-kit
-   ```
-
+   https://github.com/RR-NEW/mini-drum-kit
 2. Open the project folder.
 
-3. Run the `index.html` file in your browser.
+3. Open `index.html` in your browser.
 
-4. Click the drum buttons or press the corresponding keys on your keyboard to play sounds.
+4. Refresh the page (or click the **Play** button if your project has one) to roll the dice.
+
+5. The player with the higher number wins. If both dice show the same number, the game ends in a draw.
 
 ## 📂 Project Structure
 
 ```
-Drum-Kit/
+Dice-Game/
 │── index.html
 │── style.css
-│── index.js
-│── sounds/
-│   ├── crash.mp3
-│   ├── kick-bass.mp3
-│   ├── snare.mp3
-│   ├── tom-1.mp3
-│   ├── tom-2.mp3
-│   ├── tom-3.mp3
-│   └── tom-4.mp3
+│── script.js
 └── images/
+    ├── dice1.png
+    ├── dice2.png
+    ├── dice3.png
+    ├── dice4.png
+    ├── dice5.png
+    └── dice6.png
 ```
 
 ## 📚 What I Learned
 
-While building this project, I practiced:
+During this project, I practiced:
 
+- JavaScript Variables
+- Math.random() and Math.floor()
 - DOM Manipulation
-- Event Listeners
-- Keyboard Events
-- Mouse Click Events
-- Functions
-- Audio in JavaScript
-- CSS Styling and Animations
+- Selecting HTML Elements
+- Updating Images Dynamically
+- Conditional Statements (`if`, `else if`, `else`)
+- Event Handling
+- HTML & CSS Layout Design
 
 ## 🎯 Future Improvements
 
-- Add volume control
-- Add more drum sounds
-- Record and replay drum beats
-- Improve animations and UI
+- Add a **Roll Dice** button
+- Keep track of player scores
+- Add sound effects and animations
+- Support multiple rounds
+- Make the game mobile-friendly
 
 ## 📸 Preview
 
-_Add a screenshot of your Drum Kit here._
+_Add a screenshot of your Dice Game here._
 
 ## 👨‍💻 Author
 
 **Rojit Rajbanshi**
 
-- Passionate about Web Development
-- Currently learning HTML, CSS, JavaScript, and Node.js
+- 🌱 Currently learning Web Development
+- 💻 Exploring HTML, CSS, JavaScript, Node.js, and modern web technologies
 
 ---
-⭐ If you like this project, don't forget to give it a star!
+
+⭐ If you enjoyed this project, consider giving it a **Star** on GitHub!
